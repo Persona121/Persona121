@@ -1,0 +1,190 @@
+<!DOCTYPE html>  
+<html lang="uk">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Чай і Кава: Історія, Легенди, Традиції</title>  
+    <link rel="stylesheet" href="styles.css">  
+    <style>  
+        #videoModal {  
+            display: none;  
+            position: fixed;  
+            z-index: 1000;  
+            left: 0;  
+            top: 0;  
+            width: 100%;  
+            height: 100%;  
+            overflow: auto;  
+            background-color: rgba(0, 0, 0, 0.8);  
+        }  
+        #videoModal video {  
+            margin: auto;  
+            display: block;  
+            max-width: 80%;  
+            max-height: 80%;  
+        }  
+        .close {  
+            color: white;  
+            float: right;  
+            font-size: 28px;  
+            font-weight: bold;  
+            cursor: pointer;  
+        }  
+    </style>  
+</head>  
+<body>  
+    <header>  
+        <h1>Чай і Кава: Історія, Легенди, Традиції</h1>  
+        <nav>  
+            <ul>  
+                <li><a href="#" class="nav-link active" data-tab="tea">Історії чаю</a></li>  
+                <li><a href="#" class="nav-link" data-tab="coffee">Історії кави</a></li>  
+                <li><a href="#" class="nav-link" data-tab="legends">Легенди</a></li>  
+                <li><a href="#" class="nav-link" data-tab="video">Відео</a></li>  
+            </ul>  
+        </nav>  
+    </header>  
+
+    <main>  
+        <!-- Вкладка "Чай" -->  
+        <section id="tea" class="content">  
+            <h2>Історії чаю</h2>  
+            <p>Досліджуйте, як чай почав свій шлях у Китаї та став невід'ємною частиною культури.</p>  
+            
+            <h3>Історія китайського чаю</h3>  
+            <p>Чай як рослина був поширений не тільки в Піднебесній: фактично знаходили диковинні чайні кущі в Індії, Гімалаях і Тибеті. Але історія чаю як напою почалася в Китаї і триває вже більше п'яти тисяч років.</p>  
+            
+            <img src="photo/chajnye-plantatsii-v-kitae-1.jpg" alt="Чайні плантації в Китаї" />  
+            
+            <p>Улюблений напій в Піднебесній зараз, звичайно ж, чай, історія походження настою з чайного листа почалася саме в цій країні. За однією з версій легенда виникла імператором Шень-ну, який називався по-нашому "червоною лість". Справжнє це виправдання: в казанках з киплячою водою потрапило кілька сушених листочків з чаю з куща. Імператор вирішив спробувати цей напій, що стало початком історії китайського чаю, і його стали вважати питво на всі країни.</p>  
+            
+            <blockquote>  
+                <p><strong>Перший час чай споживали з лікувальною метою. Листя вважалися лікарським засобом, його варили. Чайні листки, як можна було придбати брикети чаю, з'явилися в Китаї ще в епоху Цзинь – у 265-420 рр.</strong></p>  
+            </blockquote>  
+            
+            <h3>Поширення чаю</h3>  
+            <p>Історія китайського чаю вплинула на багато країн. Завдяки розвитку міжнародних відносин з Китаєм, на IX столітті напій став відомим в Японії. Поширюватися серед охочих населення він почав з XIII століття, а тоді підійшов в країни Європи, зокрема, в Англії отримав значний обіг.</p>  
+            
+            <h3>Походження назви</h3>  
+            <p>Знайомим нам слово "чай" походить від китайського "цай", що в перекладі означає "молодий листок". А в різних частинах Європи цей напій називають "tee".</p>  
+        </section>  
+
+        <!-- Вкладка "Кава" -->  
+        <section id="coffee" class="content" style="display:none;">  
+            <h2>Історії кави</h2>  
+            <p>Досліджуйте, як кава виникла в Ефіопії та стала популярним напоєм у всьому світі.</p>  
+
+            <img src="photo/coffe.jpg" alt="Стакан з кавою" />  
+            
+            <h3>Легенди про походження кави</h3>  
+            <p>Батьківщиною кави прийнято вважати Ефіопію. Відомі кілька ефіопських легенд про походження кави. Одна з них розповідає, що історія кави починається з яменського шейха Абд аль-Кадіра.</p>  
+            
+            <p>Ефіопський пастух Кадрім приблизно в 850 році помітив, що козли, які їли ягоди кавового дерева, ставали дуже бадьорими. Він вирішив спробувати листя і плоди кавового дерева.</p>  
+            
+            <blockquote>  
+                <p><strong>Вважається, що спочатку каву вживали як ліки. Перші дослідження генетичної різноманітності проводили на зразках, що належать до різних сортів кави.</strong></p>  
+            </blockquote>  
+            
+            <h3>Перші згадки про каву</h3>  
+            <p>Перші письмові згадки про каву з'явилися в Європі в 1548 році. Про кавове дерево згадував Антоніо Менавіно, і через десять років П'єр Бельон згадує його у списку рослин Аравії.</p>  
+            
+            <h3>Сучасні традиції</h3>  
+            <p>Кава сьогодні є національним напоєм у багатьох країнах. Протягом століть формувалися різні традиції приготування та вживання кави, включаючи еспресо в Італії та турецьку каву в Туреччині.</p>  
+        </section>  
+
+        <!-- Вкладка "Легенди" -->  
+        <section id="legends" class="content" style="display:none;">  
+            <h2>Легенди</h2>  
+            <p>Легенди про чай і каву повні магії та досліджень.</p>  
+            
+            <h3>Легенда про чай</h3>  
+            <img src="photo/tea legend.jpg" alt="Легенда про чай" />  
+            <p>Вважається, що чай вперше було відкрито в Китаї, коли імператор Шен Нунг відпочивав під час подорожі. Під час закипання води, кілька листків з дерева випадково потрапили в каструлю. Коли імператор спробував цей напій, він відчув незвичайний смак і бадьорість.</p>  
+            
+            <h3>Легенда про каву</h3>  
+            <img src="photo/cofee legend.jpg" alt="Легенда про каву" />  
+            <p>Існує легенда, що кава була відкрита пастухом на ім'я Калді в Ефіопії. Він помітив, що його кози стали надзвичайно енергійними після вживання ягід кавового дерева. Калді спробував ягоди сам і відчув приплив сил.</p>  
+            
+            <h3>Символіка</h3>  
+            <img src="photo/sign.jpg" alt="Символіка напоїв" />  
+            <p>Чай часто асоціюється з спокоєм, зосередженістю та медитацією, тоді як кава — це символ енергії, спілкування та творчості.</p>  
+        </section>  
+
+        <!-- Вкладка "Відео" -->  
+        <section id="video" class="content" style="display:none;">  
+            <h2>Відео про чай та каву</h2>  
+            <img id="videoTrigger" src="photo/cerimonia-te-cinese-129.jpeg" alt="Відкрити відео" style="cursor: pointer; max-width: 300px; max-height: 200px;">  
+        </section>  
+
+        <!-- Модальне вікно для відео -->  
+        <div id="videoModal">  
+            <span class="close">&times;</span>  
+            <video id="videoPlayer" controls>  
+                <source src="photo/meme1.mp4" type="video/mp4">  
+                Ваш браузер не підтримує відео.  
+            </video>  
+        </div>  
+    </main>  
+
+    <footer>  
+        <p>© 2024 Чай і Кава: Історія, Легенди, Традиції</p>  
+    </footer>  
+
+    <script>  
+        // Функція для перемикання вкладок  
+        document.addEventListener('DOMContentLoaded', function() {  
+            const navLinks = document.querySelectorAll('.nav-link');  
+            const sections = document.querySelectorAll('.content');  
+
+            navLinks.forEach(link => {  
+                link.addEventListener('click', function(e) {  
+                    e.preventDefault();  
+                    
+                    // Приховати всі секції  
+                    sections.forEach(section => {  
+                        section.style.display = 'none';  
+                    });  
+
+                    // Видалити клас active з усіх посилань  
+                    navLinks.forEach(navLink => {  
+                        navLink.classList.remove('active');  
+                    });  
+
+                    // Показати обрану секцію  
+                    const tabId = this.getAttribute('data-tab');  
+                    document.getElementById(tabId).style.display = 'block';  
+                    
+                    // Додати клас active поточному посиланню  
+                    this.classList.add('active');  
+                });  
+            });  
+
+            // Функції для відео  
+            const videoTrigger = document.getElementById('videoTrigger');  
+            const videoModal = document.getElementById('videoModal');  
+            const videoPlayer = document.getElementById('videoPlayer');  
+            const closeBtn = document.querySelector('.close');  
+
+            videoTrigger.addEventListener('click', function() {  
+                videoModal.style.display = 'block';  
+                videoPlayer.play();  
+            });  
+
+            closeBtn.addEventListener('click', function() {  
+                videoModal.style.display = 'none';  
+                videoPlayer.pause();  
+                videoPlayer.currentTime = 0;  
+            });  
+
+            // Закриття модального вікна при кліці поза відео  
+            window.addEventListener('click', function(event) {  
+                if (event.target === videoModal) {  
+                    videoModal.style.display = 'none';  
+                    videoPlayer.pause();  
+                    videoPlayer.currentTime = 0;  
+                }  
+            });  
+        });  
+    </script>  
+</body>  
+</html>
